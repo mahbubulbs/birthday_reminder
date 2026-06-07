@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Odoo runtime files
+filestore/
+session/
+*.log
+
+# Config (local only)
+odoo.conf
+
+# OS files
+.DS_Store
+
+# Odoo temporary files
+*.pot
+*.mo
+
+# compiled assets
+*.min.js
+*.min.css
