@@ -1,7 +1,3 @@
-নিচে তোমার **Birthday Reminder Odoo module-এর জন্য professional README.md** দিলাম — একদম GitHub-ready 👇
-
----
-
 # 📌 Birthday Reminder App (Odoo Module)
 
 ## 🎯 Overview
