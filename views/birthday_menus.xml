@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="birthday_root" name="Birthday Reminder">
+        <menuitem id="birthday_menu" action="action_birthday"/>
+    </menuitem>
+</odoo>

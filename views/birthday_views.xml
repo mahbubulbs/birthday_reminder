@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_birthday" model="ir.actions.act_window">
+        <field name="name">Birthdays</field>
+        <field name="res_model">birthday.reminder</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="view_birthday_list" model="ir.ui.view">
+        <field name="name">birthday.reminder.list</field>
+        <field name="model">birthday.reminder</field>
+        <field name="arch" type="xml">
+            <list string="Birthdays">
+                <field name="name"/>
+                <field name="birth_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_birthday_form" model="ir.ui.view">
+        <field name="name">birthday.reminder.form</field>
+        <field name="model">birthday.reminder</field>
+        <field name="arch" type="xml">
+            <form string="Birthday">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="birth_date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
